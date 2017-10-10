@@ -4,7 +4,7 @@
 
 ## Prerequisites
 
-- 🗝️ Make a Twitter app on their developer portal and add your keys
+- 🗝️ Make a Twitter app on the Twitter developer portal and add your keys to `keys.json`
 - 🐍 Install Python 3 if you don't already
 
 ## Usage
