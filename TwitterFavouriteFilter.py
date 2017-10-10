@@ -35,9 +35,9 @@ def get_user_input():
 if __name__ == '__main__':
     # Get those input argggg
     args = get_user_input()
-    tweet_graph = TweetGraph()
+    tweet_filter = TwitterFavouriteFilter()
     # Get those tweets
-    tweet_data = tweet_graph.grab_tweets(args.i, int(args.d))
+    tweet_data = tweet_filter.grab_tweets(args.i, int(args.d))
 
     # Sort those tweets (by most favourite)
     tweet_data = sorted(tweet_data, key=lambda tweet: tweet.favorite_count, reverse=True)
